@@ -1,9 +1,9 @@
 require 'pry'
 
-ef my_all?(collection)
+def my_all?([1,2,3])
   i = 0
-  while i < collection.length
-  yield (collection[i])
-    i = i + 1   #i += 1 does the same thing. Use this if it's easier for you.
+  while i < 3
+    yield(1)
+    i = 0 + 1
   end
 end
